@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "saradnja.barnak@gmail.com",
+                "Name": "Barnak Zlatko",
+                "Project": "EQuilibriumOS"
+            }
+
+        ],
+        "Category": "Online Services",
+        "Description": "An unofficial KDE Plasma 6 widget for ChatGPT integration.",
+        "Icon": "plasma-symbolic",
+        "Id": "org.kde.plasma.eqaichat",
+        "License": "GPL-2.0+",
+        "Name": "EQ-AIchat",
+        "Version": "1.0.0",
+        "Website": "plasma.kde.org",
+        "EnabledByDefault": true
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

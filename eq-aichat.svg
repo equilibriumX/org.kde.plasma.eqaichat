@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#1248b8"/>
+      <stop offset="1" stop-color="#f82020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded app background -->
+  <rect x="2" y="2" width="124" height="124" rx="23" fill="url(#bg)"/>
+
+
+
+  <!-- AI lettering -->
+  <text x="66" y="82"
+        fill="#ffffff"
+        font-family="DejaVu Sans, Arial, sans-serif"
+        font-size="54"
+        font-weight="700"
+        text-anchor="middle"
+        letter-spacing="-2">AI</text>
+
+  <text x="26" y="80"
+        fill="#152020"
+        font-family="DejaVu Sans, Arial, sans-serif"
+        font-size="14"
+        font-weight="700"
+        text-anchor="top"
+        letter-spacing="-2">EQ-AIchat</text>
+
+
+   <!-- Centralna kugla sa senkom -->
+  <g filter="url(#shadow)">
+
+    <circle cx="64" cy="64" r="40"
+            fill="url(#sphereGradient)"/>
+
+    <!-- Refleksija na kugli -->
+    <circle cx="64" cy="64" r="40"
+            fill="url(#highlight)"/>
+
+    <!-- Gornji svetlosni odsjaj -->
+    <path d="
+      M 35 43
+      C 39 30, 52 24, 64 25
+      C 53 28, 43 36, 39 48
+      C 36 54, 32 53, 35 43 Z"
+      fill="#FFFFFF"
+      opacity="0.28"/>
+
+    <!-- Donja refleksija -->
+    <path d="
+      M 31 79
+      C 40 103, 76 111, 96 88
+      C 84 108, 53 114, 34 96
+      Z"
+      fill="#FFFFFF"
+      opacity="0.12"/>
+
+  </g>
+</svg>
